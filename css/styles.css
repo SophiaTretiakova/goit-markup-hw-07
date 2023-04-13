@@ -70,6 +70,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color-primary);
+  margin-right: 76px;
 }
 
 .nav-list-container {
