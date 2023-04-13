@@ -20,5 +20,6 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/mobile-background-img@2x.jpg);
+    background-size: cover;
   }
 }
