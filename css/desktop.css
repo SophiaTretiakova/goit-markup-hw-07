@@ -1,0 +1,257 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .address-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  /*=========== Main ===========*/
+  /*=========== Effective Solutions for Your Business ===========*/
+  .first-title-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/desktop-background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .title-section {
+    max-width: 768px;
+    height: 120px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.05;
+    letter-spacing: 0.02em;
+    margin-bottom: 48px;
+    width: 496px;
+    text-align: center;
+  }
+
+  .button-title-item {
+    max-width: 796px;
+    padding-bottom: 188px;
+    padding-top: 188px;
+  }
+
+  /*=========== Advantage Section ===========*/
+  .advantage-list-img-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    padding: 24px 0;
+    margin-bottom: 8px;
+  }
+
+  .advantage-list-img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .advantage-list {
+    flex-wrap: nowrap;
+  }
+
+  .advantage-list-item:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .advantage-header {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .advantage-paragraph {
+    font-weight: 400;
+  }
+  /* ======== What are we doing section ======== */
+  .our-actions-section {
+    display: block;
+  }
+
+  .our-actions-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+
+  .advantage-list-img-container {
+    background-color: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    padding: 24px 100px;
+  }
+
+  .advantage-list-img {
+    width: 64px;
+    height: 64px;
+    left: 100px;
+    top: 24px;
+  }
+  /* ======== Our Team section ======== */
+  .team-members-list {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .team-members-name {
+    color: var(--headers-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+
+  .team-members-description {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+
+  .our-team-section {
+    background-color: #f4f4fd;
+  }
+
+  .team-member-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .team-members-list-item {
+    background-color: #fff;
+    min-height: 380px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+
+  .team-social-media-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-members-list-item:nth-child(2n + 1) {
+    margin-right: 0;
+  }
+  .team-social-media-item:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  .team-social-media-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brand-color-primary);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .team-social-media-link:hover,
+  .team-social-media-link:focus {
+    background-color: var(--pressed-state);
+  }
+
+  .team-social-list-icon {
+    fill: #fff;
+    width: 16px;
+    height: 16px;
+  }
+  /* ======== Customers ======== */
+  .customers-img-container {
+    width: 168px;
+    height: 88px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .customers-list {
+    flex-wrap: nowrap;
+    gap: 0 0;
+  }
+
+  .customers-list-item:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  .customers-img-container:hover,
+  .customers-img-container:focus {
+    border-color: #404bbf;
+  }
+
+  .customers-list-link:is(:hover, focus) .customers-list-img {
+    fill: var(--pressed-state);
+  }
+  /* ======== Footer ======== */
+  .footer-logo-container {
+    display: block;
+    margin-right: 0;
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-paragraph {
+    width: 264px;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  /* .footer-social-media-list {
+    justify-content} */
+
+  .footer-social-media-link:hover,
+  .footer-social-media-link:focus {
+    background-color: #31d0aa;
+  }
+
+  .footer-subscribers-list {
+    margin-left: 80px;
+  }
+}
+
+@media screen and(min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .first-title-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/desktop-background-img@2x.jpg);
+  }
+}
