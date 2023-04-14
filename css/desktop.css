@@ -1,14 +1,18 @@
 @media screen and (min-width: 1158px) {
-  .logo {
-    margin-right: 76px;
-  }
-
   .container {
     width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .header-container {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .address-list-container {
@@ -21,6 +25,10 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+  }
+
+  .address-list-container-item:not(:last-child) {
+    margin-right: 40px;
   }
   /*=========== Main ===========*/
   /*=========== Effective Solutions for Your Business ===========*/
@@ -73,6 +81,10 @@
     flex-wrap: nowrap;
   }
 
+  .advantage-list-item {
+    width: 264px;
+  }
+
   .advantage-list-item:not(:last-child) {
     margin-right: 24px;
   }
@@ -83,12 +95,17 @@
   }
 
   .advantage-header {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
   }
 
   .advantage-paragraph {
     font-weight: 400;
+  }
+
+  .advantage-list-item:nth-child(-n + 2) {
+    margin-bottom: 0;
   }
   /* ======== What are we doing section ======== */
   .our-actions-section {
@@ -98,7 +115,7 @@
   .our-actions-list {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
   }
 
   .advantage-list-img-container {
@@ -232,6 +249,7 @@
   .footer-content {
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: flex-start;
   }
 
   /* .footer-social-media-list {
@@ -243,6 +261,7 @@
   }
 
   .footer-subscribers-list {
+    min-width: 453px;
     margin-left: 80px;
   }
 

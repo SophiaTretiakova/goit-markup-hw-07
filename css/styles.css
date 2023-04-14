@@ -48,8 +48,6 @@ body {
 
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 96px;
-  padding-bottom: 96px;
 
   margin-right: auto;
   margin-left: auto;
@@ -112,7 +110,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
   padding: 24px 16px 24px;
 }
 
@@ -665,7 +662,8 @@ body {
   padding: 24px;
   padding-top: 72px;
   position: absolute;
-  width: 408px;
+  width: 392px;
+  height: 586px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);

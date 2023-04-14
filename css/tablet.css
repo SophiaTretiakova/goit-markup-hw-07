@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
-  /* .logo {
+  .logo {
     margin-right: 76px;
-  } */
+  }
   /*========== Header ==========*/
   .container {
     width: 768px;
@@ -15,11 +15,14 @@
     display: none;
   }
 
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
   .header-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 72px;
+    padding: 0 16px;
   }
 
   .header {
@@ -102,7 +105,7 @@
   .address-list-container {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 12px 0;
   }
 
   .address-list-container {
@@ -110,7 +113,7 @@
   }
 
   .address-list-container-item:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 0;
   }
   /*=========== Main ===========*/
   /*=========== Effective Solutions for Your Business ===========*/
@@ -212,6 +215,10 @@
 
   .footer-subscribers-list {
     min-width: 496px;
+  }
+
+  .modal {
+    width: 408px;
   }
 
   @media screen and(min-device-pixel-ratio: 2),
