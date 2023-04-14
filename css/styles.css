@@ -50,6 +50,9 @@ body {
   padding-right: 16px;
   padding-top: 96px;
   padding-bottom: 96px;
+
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .noaccent-logo-part {
@@ -335,7 +338,6 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-media-link:hover,
 .team-social-media-link:focus {
   background-color: var(--pressed-state);
 }
@@ -372,12 +374,11 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-img-container:hover,
 .customers-img-container:focus {
   border-color: #404bbf;
 }
 
-.customers-list-link:is(:hover, focus) .customers-list-img {
+.customers-list-link:is(:focus) .customers-list-img {
   fill: var(--pressed-state);
 }
 /* ======== /Customers ======== */
@@ -444,7 +445,7 @@ body {
 
 .footer-social-media-link {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--brand-color-primary);
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -458,9 +459,8 @@ body {
   height: 24px;
 }
 
-.footer-social-media-link:hover,
 .footer-social-media-link:focus {
-  background-color: #31d0aa;
+  background-color: var(--pressed-state);
 }
 
 .footer-social-media-img {
